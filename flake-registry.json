@@ -16,39 +16,6 @@
     },
     {
       "from": {
-        "id": "utils",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "gytis-ivaskevicius",
-        "repo": "flake-utils-plus",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "nvfetcher",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "berberman",
-        "repo": "nvfetcher",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "flake-compat",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "devshell",
         "type": "indirect"
       },
@@ -56,18 +23,6 @@
         "owner": "edolstra",
         "ref": "devshell",
         "repo": "numtide",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "unstable",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
         "type": "github"
       }
     },
@@ -106,17 +61,6 @@
     },
     {
       "from": {
-        "id": "gomod2nix",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "tweag",
-        "repo": "gomod2nix",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "nixpkgs",
         "type": "indirect"
       },
@@ -140,6 +84,76 @@
         "owner": "NixOS",
         "repo": "nixpkgs",
         "rev": "988f3adf009672bb2a5b749123ff3e8846a5f3a8",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641230035,
+        "narHash": "sha256-hFyqihERaTbLxCOlugy/rpp22VLtLh8SPRnA2uu3F/8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "78cd22c1b8604de423546cd49bfe264b786eca13",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "flake-compat",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641205782,
+        "narHash": "sha256-4jY7RCWUoZ9cKD8co0/4tFARpWB+57+r1bLLvXNJliY=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "b7547d3eed6f32d06102ead8991ec52ab0a4f1a7",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "utils",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1639385028,
+        "narHash": "sha256-oqorKz3mwf7UuDJwlbCEYCB2LfcWLL0DkeCWhRIL820=",
+        "owner": "gytis-ivaskevicius",
+        "repo": "flake-utils-plus",
+        "rev": "be1be083af014720c14f3b574f57b6173b4915d0",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nvfetcher",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641071623,
+        "narHash": "sha256-jxquDPaIJPub49c1UK96LHlFTzSCXCJ6Mv5fpeGtD90=",
+        "owner": "berberman",
+        "repo": "nvfetcher",
+        "rev": "8aedc71c67960945bc18fb1077e7bdcd9046f1ee",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "gomod2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1639197850,
+        "narHash": "sha256-Qknxy+YjVA39v/LwiUNsAcMAg9Df8aYAuqkH+EiAHRA=",
+        "owner": "tweag",
+        "repo": "gomod2nix",
+        "rev": "596d01fd55ed8521853807df1f4e9d858cf75d7e",
         "type": "github"
       }
     }
