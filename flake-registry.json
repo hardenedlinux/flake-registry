@@ -16,18 +16,6 @@
     },
     {
       "from": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "release-21.11",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "utils",
         "type": "indirect"
       },
@@ -85,18 +73,6 @@
     },
     {
       "from": {
-        "id": "latest",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "master",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "microvm",
         "type": "indirect"
       },
@@ -125,6 +101,45 @@
       "to": {
         "owner": "nerdypepper",
         "repo": "statix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "gomod2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "tweag",
+        "repo": "gomod2nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641244400,
+        "narHash": "sha256-8i4oasWEz/2y9U+F1XU15jfwSbd5YOEBh2tyBBm/W8E=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c6019d8efb5530dcf7ce98086b8e091be5ff900a",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "latest",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641252179,
+        "narHash": "sha256-mASUAFRbfD/wLgNW7vDoG5WjM3G/7LGRzFse0B39PM4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "988f3adf009672bb2a5b749123ff3e8846a5f3a8",
         "type": "github"
       }
     }
