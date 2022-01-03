@@ -94,6 +94,39 @@
         "repo": "nixpkgs",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "microvm",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "astro",
+        "repo": "microvm.nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "mach-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "statix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nerdypepper",
+        "repo": "statix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
