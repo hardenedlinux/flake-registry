@@ -1,0 +1,100 @@
+{
+  "flakes": [
+    {
+      "from": {
+        "id": "haskell-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641091111,
+        "narHash": "sha256-I5MTzpra1c2nNwiQA03TivH5tHUigvsihwj/I+HKX7Q=",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "85755332c0698ab90d061c079f3c25710675bb85",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "release-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "gytis-ivaskevicius",
+        "repo": "flake-utils-plus",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nvfetcher",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "berberman",
+        "repo": "nvfetcher",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "flake-compat",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "devshell",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "edolstra",
+        "ref": "devshell",
+        "repo": "numtide",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "latest",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    }
+  ],
+  "version": 2
+}
