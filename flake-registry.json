@@ -2,32 +2,6 @@
   "flakes": [
     {
       "from": {
-        "id": "haskell-nix",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641091111,
-        "narHash": "sha256-I5MTzpra1c2nNwiQA03TivH5tHUigvsihwj/I+HKX7Q=",
-        "owner": "input-output-hk",
-        "repo": "haskell.nix",
-        "rev": "85755332c0698ab90d061c079f3c25710675bb85",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "devshell",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "edolstra",
-        "ref": "devshell",
-        "repo": "numtide",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "microvm",
         "type": "indirect"
       },
@@ -61,20 +35,6 @@
     },
     {
       "from": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641244400,
-        "narHash": "sha256-8i4oasWEz/2y9U+F1XU15jfwSbd5YOEBh2tyBBm/W8E=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "c6019d8efb5530dcf7ce98086b8e091be5ff900a",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "latest",
         "type": "indirect"
       },
@@ -84,20 +44,6 @@
         "owner": "NixOS",
         "repo": "nixpkgs",
         "rev": "988f3adf009672bb2a5b749123ff3e8846a5f3a8",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "unstable",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641230035,
-        "narHash": "sha256-hFyqihERaTbLxCOlugy/rpp22VLtLh8SPRnA2uu3F/8=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "78cd22c1b8604de423546cd49bfe264b786eca13",
         "type": "github"
       }
     },
@@ -154,6 +100,76 @@
         "owner": "tweag",
         "repo": "gomod2nix",
         "rev": "596d01fd55ed8521853807df1f4e9d858cf75d7e",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641230035,
+        "narHash": "sha256-hFyqihERaTbLxCOlugy/rpp22VLtLh8SPRnA2uu3F/8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "78cd22c1b8604de423546cd49bfe264b786eca13",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641244400,
+        "narHash": "sha256-8i4oasWEz/2y9U+F1XU15jfwSbd5YOEBh2tyBBm/W8E=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c6019d8efb5530dcf7ce98086b8e091be5ff900a",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "devshell",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1640301433,
+        "narHash": "sha256-eplae8ZNiEmxbOgwUn9IihaJfEUxoUilkwciRPGskYE=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "f87fb932740abe1c1b46f6edd8a36ade17881666",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "haskell-nix",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641172605,
+        "narHash": "sha256-1bVR9h/bV21i3IUETnZfIDWABPT3/1k+UWKw1MWAuds=",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "a5c792c9e4347899ee8297c19aa6d3374685b1b1",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "pypi-deps-db",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1641240851,
+        "narHash": "sha256-Mg0B8+ysCVG7kGu2g9NMwFDjwx1eyypUqafYDsWPj8s=",
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "rev": "d047c044a62810554f5b0f808c3ea8f7ecbec150",
         "type": "github"
       }
     }
