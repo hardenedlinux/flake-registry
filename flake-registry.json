@@ -206,6 +206,17 @@
     },
     {
       "from": {
+        "id": "nixpkgs-hardenedlinux",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hardenedlinux",
+        "repo": "nixpkgs-hardenedlinux",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
         "id": "zeek2nix",
         "type": "indirect"
       },
