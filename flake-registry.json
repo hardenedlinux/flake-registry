@@ -105,34 +105,6 @@
     },
     {
       "from": {
-        "id": "unstable",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641230035,
-        "narHash": "sha256-hFyqihERaTbLxCOlugy/rpp22VLtLh8SPRnA2uu3F/8=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "78cd22c1b8604de423546cd49bfe264b786eca13",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641244400,
-        "narHash": "sha256-8i4oasWEz/2y9U+F1XU15jfwSbd5YOEBh2tyBBm/W8E=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "c6019d8efb5530dcf7ce98086b8e091be5ff900a",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "devshell",
         "type": "indirect"
       },
@@ -170,6 +142,76 @@
         "owner": "DavHau",
         "repo": "pypi-deps-db",
         "rev": "d047c044a62810554f5b0f808c3ea8f7ecbec150",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "flake-utils",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "release-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs_21_05",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "release-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs_20",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "release-20.09",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "zeek2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "hardenedlinux",
+        "repo": "zeek2nix",
         "type": "github"
       }
     }
