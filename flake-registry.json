@@ -225,6 +225,28 @@
         "repo": "zeek2nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "vast2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "GTrunSec",
+        "repo": "vast2nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "threatbus2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "GTrunSec",
+        "repo": "threatbus2nix",
+        "type": "github"
+      }
     }
   ],
   "version": 2
