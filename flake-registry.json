@@ -247,6 +247,17 @@
         "repo": "threatbus2nix",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "blank",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "divnix",
+        "repo": "blank",
+        "type": "github"
+      }
     }
   ],
   "version": 2
