@@ -133,20 +133,6 @@
     },
     {
       "from": {
-        "id": "pypi-deps-db",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641240851,
-        "narHash": "sha256-Mg0B8+ysCVG7kGu2g9NMwFDjwx1eyypUqafYDsWPj8s=",
-        "owner": "DavHau",
-        "repo": "pypi-deps-db",
-        "rev": "d047c044a62810554f5b0f808c3ea8f7ecbec150",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "flake-utils",
         "type": "indirect"
       },
@@ -256,6 +242,31 @@
       "to": {
         "owner": "divnix",
         "repo": "blank",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "pypi-deps-db",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1643142536,
+        "narHash": "sha256-Q9gshu73dKdgmAqAtZ/MDrks9eRq5H/OTS7XpjOSYgw=",
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "rev": "358c87c2aff0f0580e277d8b1c04fe4e20cb7d60",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "ragenix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "yaxitech",
+        "repo": "ragenix",
         "type": "github"
       }
     }
