@@ -156,18 +156,6 @@
     },
     {
       "from": {
-        "id": "unstable",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "nixpkgs_21_05",
         "type": "indirect"
       },
@@ -267,6 +255,52 @@
       "to": {
         "owner": "yaxitech",
         "repo": "ragenix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "treefmt",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "numtide",
+        "repo": "treefmt",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "alejandra",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "kamadorueda",
+        "repo": "alejandra",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs-unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixos-unstable",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
         "type": "github"
       }
     }
