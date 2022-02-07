@@ -303,6 +303,17 @@
         "repo": "nixpkgs",
         "type": "github"
       }
+    },
+    {
+      "from": {
+        "id": "spicy2nix",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "gtrunsec",
+        "repo": "spicy2nix",
+        "type": "github"
+      }
     }
   ],
   "version": 2

@@ -1,0 +1,7 @@
+#+TITLE: Readme
+
+* Adding a new unlocked entry
+
+#+begin_src sh :async :exports both :results output
+nix registry add --registry ./flake-registry.json spicy2nix github:gtrunsec/spicy2nix
+#+end_src
