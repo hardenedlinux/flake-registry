@@ -35,20 +35,6 @@
     },
     {
       "from": {
-        "id": "latest",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1641252179,
-        "narHash": "sha256-mASUAFRbfD/wLgNW7vDoG5WjM3G/7LGRzFse0B39PM4=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "988f3adf009672bb2a5b749123ff3e8846a5f3a8",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "flake-compat",
         "type": "indirect"
       },
@@ -312,6 +298,18 @@
       "to": {
         "owner": "gtrunsec",
         "repo": "spicy2nix",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "latest",
+        "type": "indirect"
+      },
+      "to": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixpkgs",
         "type": "github"
       }
     }
